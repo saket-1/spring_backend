@@ -1,4 +1,4 @@
-package com.practice.demo.exception;
+package com.practice.demo.controller;
 
 import java.util.List;
 
@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.practice.demo.exception.ResourceNotFoundException;
 import com.practice.demo.model.Employee;
 import com.practice.demo.repository.EmployeeRepository;
 
